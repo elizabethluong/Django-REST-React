@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'leads',  # add the leads app
-    'rest_framework'
+    'rest_framework',
+    'frontend'  # enable the frontend app
+
 ]
 
 MIDDLEWARE = [
